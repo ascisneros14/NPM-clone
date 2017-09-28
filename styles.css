@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans","OpenSans",sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.35;
+    color: #6d7986;
+    background-color: transparent;
+}
+
+h1, h2, h3 {
+  padding-top: .107em;
+  padding-bottom: .107em;
+}
+
+/*** Barra navegacion ***/
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 11px 0;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: -20px 0 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-container {
+  padding: 0 20px;
+}
+
+.acronym {
+  margin-left: 10px;
+}
+
+.nav-bar-font {
+  font-size: 14.4px;
+}
+/*** Barra navegacion ***/
+
+
+/*** Header ***/
+/*** Logo ***/
+.brand-container {
+  padding: 20px 0;
+}
+
+.logo-container {
+  vertical-align: middle;
+  width: 125px;
+  height: 50px;
+}
+/*** Logo ***/
+
+
+/*** Search ***/
+header {
+  background-color: transparent;
+  display: flex;
+  padding: 0 20px;
+}
+
+.header-search-container {
+  position: relative;
+  float: left;
+  display: block;
+  width: 73%;
+  padding: 20px;
+}
+
+.site-search {
+  position: relative;
+  display: block;
+  margin-top: 0em;
+
+}
+
+input[type=search] {
+    height: 3.125em;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+    color: inherit;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 0;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    outline: 0;
+}
+
+[type=submit] {
+    border: 0;
+    height: 48px;
+    width: 48px;
+    padding: 14px;
+    border-left: 1px solid rgba(255,255,255,0.2);
+    position: absolute;
+    top: 1px;
+    right: 0;
+    background-color: transparent;
+    color: rgba(255,255,255,0.8);;
+}
+/*** Search ***/
+
+
+/*** Login ***/
+.user-info {
+  width: 169px;
+  height: 45px;
+  min-width: auto;
+  padding: 20px 0;
+}
+
+.login-img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+}
+
+.ul-list {
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.ul-list li {
+  display: inline-block;
+  margin: 0;
+}
+
+.login-text {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+/*** Login ***/
+/*** Header ***/
+
+
+/*** Section 1 ***/
+.section-1 {
+  background-color: rgb(29, 78, 105);
+  background-image: url(/Users/asiercisnerosgarcia/code/lab-html-module-exercise-master/starter-code/images/city-scape.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 443.17px;
+  position: relative;
+  color: #fff;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.header-text {
+  padding-bottom: 20px;
+  margin: 10px 0 20px 0;
+  font-size: 18px;
+  display: block;
+  letter-spacing: 0.01em;
+}
+
+.container {
+  width: 90%;
+  margin: 10px auto 0 auto;
+  padding: 0;
+}
+
+.building {
+  width: 50%;
+  margin: 0 0 0 50px;
+}
+/*** Section 1 ***/
+
+
+/*** Section 2 ***/
+.section-orgs {
+  background-color: #273547;
+  margin-top: -10px;
+  padding: 120px 0;
+  color: #fff;
+}
+
+.container-2 {
+  margin: 0 52.5px;
+  padding: 0px 10px;
+}
+
+.col {
+  float: left;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.orgs-text {
+  position: relative;
+  float: left;
+  margin-left: 90px;
+  padding-left: 5px;
+  width: 41.66667%;
+  margin-top: 20px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.img-responsive {
+    display: block;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.list-u {
+  list-style: inside;
+  padding: 0px;
+  margin: 10px 0 20px 0;
+}
+
+.list-li {
+  display: list-item;
+  padding-left: 23px;
+  text-indent: -23px;
+  padding-bottom: 20px;
+  letter-spacing: 0.01em;
+}
+
+.learn {
+  padding-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.link-1 {
+  text-decoration: none;
+  font-weight: 600;
+  color: #e6e6e6;
+}
+/*** Section 2 ***/
+
+
+/*** Section 3 ***/
+.section-what {
+  background-color: #206F9C;
+  background-image: url(/Users/asiercisnerosgarcia/code/lab-html-module-exercise-master/starter-code/images/forklift.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 508px;
+  position: relative;
+  color: #fff;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.what {
+  float: left;
+  margin: 100px auto auto 100px;
+  padding: 10px;
+  position: absolute;
+  display: block;
+  height: 208px;
+  width: 350px;
+}
+
+.text-box {
+  letter-spacing: 0.01em;
+  padding: 10px 0;
+  margin: 10px 0 20px 0;
+}
+/*** Section 3 ***/
+
+
+/*** Section 4 ***/
+.section-blocks {
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 90%;
+}
+
+.center {
+  text-align: center;
+}
+
+.text-h2 {
+  margin: 20px 0;
+  color: #373d48;
+}
+
+.text-p {
+  margin-bottom: 10px;
+}
+
+.col-what {
+  float: left;
+}
+
+.col-3 {
+  width: 24%;
+}
+
+.col-middle-2 {
+  margin: 0 8%;
+}
+
+.container-3 {
+  padding: 20px;
+  display: block;
+}
+
+
+.title-box {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #373d48;
+}
+
+.find-link {
+  text-decoration: none;
+  color: #cb3837;
+}
+/*** Section 4 ***/
+
+
+/*** Buttons ***/
+.button {
+  color: #fff;
+  outline: none;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.button-1 {
+  background-color: #f09233;
+}
+
+.button-2 {
+  background-color: #cb3837;
+}
+
+.button-3 {
+  background-color: #34495e;
+}
+/*** Buttons ***/
