@@ -158,7 +158,7 @@ input[type=search] {
 /*** Section 1 ***/
 .section-1 {
   background-color: rgb(29, 78, 105);
-  background-image: url(/Users/asiercisnerosgarcia/code/lab-html-module-exercise-master/starter-code/images/city-scape.svg);
+  background-image: url(./images/city-scape.svg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,7 +274,7 @@ h2 {
 /*** Section 3 ***/
 .section-what {
   background-color: #206F9C;
-  background-image: url(/Users/asiercisnerosgarcia/code/lab-html-module-exercise-master/starter-code/images/forklift.svg);
+  background-image: url(./images/forklift.svg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
